@@ -131,7 +131,7 @@ if "selected_blog" not in st.session_state:
 # Header
 # -----------------------------
 st.title("✍️ AI Blog Studio")
-st.caption("A multi-agent technical blog writer powered by LangGraph, Groq, Tavily, and free AI Horde image generation.")
+st.caption("A multi-agent AI blog writer powered by LangGraph, Groq, Tavily, and Cloudflare FLUX image generation, with Graphviz-powered technical diagrams.")
 
 generate = False
 with st.sidebar:
